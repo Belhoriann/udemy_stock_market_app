@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  # get 'home/index'
+  
+  # Create the root page from an HTML file
+  root 'home#index'
+  get 'home/about'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
